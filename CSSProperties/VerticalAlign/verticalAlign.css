@@ -1,0 +1,46 @@
+main{
+    background-color: green;
+}
+
+
+
+
+#one{
+    
+    width: 200px;
+    background-color: greenyellow;
+    display: inline-block;
+    /* vertical-align: top; */
+    /* vertical-align: baseline;
+    vertical-align: text-top;
+    vertical-align: bottom; */
+    vertical-align: middle;
+}
+
+#two{
+    
+    width: 100px;
+    background-color: red;
+    display: inline-block;
+    /* vertical-align: top; */
+    /* vertical-align: baseline;
+    vertical-align: text-top;
+    vertical-align: bottom; */
+    vertical-align: middle;
+}
+
+#three{
+    width: 200px;
+    background-color: yellow;
+    display: inline-block;
+    /* vertical-align: top; */
+    /* vertical-align: baseline;
+    vertical-align: text-top;
+    vertical-align: bottom; */
+    vertical-align: middle;
+}
+
+
+/* When you got some inline or inline block content 
+in a parent container and they are of different 
+heights can position with vertical align. */

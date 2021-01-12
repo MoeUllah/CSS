@@ -38,6 +38,16 @@ div#everything {
     box-shadow: 10px 10px 5px 4px rgba(156, 228, 224, 0.787);
 }
 
+div#inset{
+    box-shadow: inset 10px 10px 15px 10px black;
+    background-color: rgb(0, 0, 255);
+}
+
+/* A box-shadow with inset is when the shadow
+goes inside the element and not coming out like it
+normally does , or should look like such an effect 
+it needed. You can google inner shadow or inset shadow
+to see how it looks */
 
 div {
     background-color: cyan;

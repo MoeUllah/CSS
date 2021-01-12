@@ -1,0 +1,12 @@
+#cursor{
+    /* cursor: pointer;
+    cursor: none;
+    cursor: help;
+    cursor: crosshair; */
+    cursor: progress;
+    display: block;
+    font-size: 100px;
+}
+
+/* change the default cursor of pointer on links 
+to other types */

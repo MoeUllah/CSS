@@ -1,0 +1,23 @@
+#one{
+    font-size: 50px;
+    /* change font-size */
+}
+
+#two{
+    font-weight: bold;
+    /* font-weight: bolder;
+    font-weight: lighter; */
+}
+
+#three{
+    font-family: cursive
+}
+
+#four{
+    font-style: italic;
+}
+
+#five{
+    font-variant: small-caps;
+}
+

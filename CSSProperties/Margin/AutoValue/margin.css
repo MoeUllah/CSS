@@ -1,15 +1,14 @@
 div {
+    width: 50%;
     margin: 20px auto;
     font-size: 50px;
-    display: inline-block;
-}
-main{
     background-color: cyan;
-    display: flex;
     opacity: 0.2;
-    justify-content: center;
 }
 
-/* inspect dev tools check margin of the div 
+
+/* To center a div element in the middle
+can use margin auto for second value.
+Inspect dev tools check margin of the div 
 it takes equal space to left and right 
 with a value of auto */

@@ -25,6 +25,9 @@ body{
 /* text-align on header container moves its child 
 as a whole, for nav we want space between */
 
+/* vertical-align use on child to position inside 
+parent container vertically */
+
 /* have logo with or without a container, then nav with 
 links, both inline-block on header children and vertical 
 align as well. On nav subtract width of logo, text-align right */
