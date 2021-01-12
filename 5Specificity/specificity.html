@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="specificity.css">
+</head>
+
+<body>
+    <p style="color: red;" class="important">!Important declaration has highest priority
+        even over inline</p>
+    <p style="color: red;">Inline style has highest priority unless
+        an important declaration is used to style a certain property
+        of an element</p>
+    <h1 style="color: green;" id="header-one">this header one is styled by inline
+        which has higher specificty than id selector</h1>
+    <div id="id-div" class="class-div">Hello from a div, id selector has higher
+        specificity than class selector
+    </div>
+    <ul>
+        <li>item one</li>
+    </ul>
+    <div>
+        <a href="#">This is a link without underline which is
+            default behavior
+        </a>
+    </div>
+    <aside> this is an aside at the bottom
+        <h2>this is a header two inside an aside which
+            inherits the font-family of its parent
+        </h2>
+    </aside>
+    <h2>this is a header two not inside an aside</h2>
+
+    <footer class="footer">a footer</footer>
+</body>
+
+</html>

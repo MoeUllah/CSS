@@ -1,0 +1,11 @@
+.one-box{
+  border-top: dotted firebrick 10px;
+  border-right: wheat solid 20px;
+  border-bottom: dashed 30px lawngreen;
+  border-left: double 15px navy;
+  font-size: 50px;
+}
+
+/* short-hand for border property has 
+no order since all values are different
+can write style, color, width any order */

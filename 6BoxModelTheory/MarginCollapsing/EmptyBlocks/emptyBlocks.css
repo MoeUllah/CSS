@@ -1,0 +1,18 @@
+div{
+    margin-top: 400px;
+    margin-bottom: 200px; 
+}
+
+h1{
+    background-color: indianred;
+}
+*{
+    margin: 0;
+}
+/* Since divs are empty the margin top/bottom 
+collapse and takes the value of the bigger
+margin. This is hard to see since divs are empty 
+but if you inspect html element you'll see height
+takes a value of 400 for margin top even though
+no content is on the page plus the height of
+the two header tags */

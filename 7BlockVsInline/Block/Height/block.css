@@ -1,0 +1,72 @@
+/* Block level elements by default take as much 
+height as the content needs */
+
+div#one {
+    height: initial;
+}
+
+/* The first box takes as much height as content needs
+Here I dont even need to right a css declaration
+for the height property. A value of initial takes
+default value. */
+
+div#two{
+    height: 200px;
+    /* overflow: hidden; */
+    overflow: auto;
+}
+
+/* If you set a fixed height, then the element takes
+that fixed height, it no longer changes dynamically. 
+The remaining content goes outside the element causing
+weird things to happen. Try commenting out one at a 
+time to set overflow: hidden and overflow:scroll
+or overflow: auto*/
+
+
+div#three{
+    height: 50%;
+}
+
+/* Height is also a property that can be inherited. The 
+parent of box three is the main element which has a
+height of 50px as defined below. I set box 3 height 
+to be 50% of main but if you check devtools you'll
+see height is still 50px. */
+
+html{
+    height: 100%;
+    /* height:auto; */
+}
+body, footer{
+    height: 100%;
+}
+div#four{
+    height: 50%;
+}
+
+/* So to use percentages with height you have to create a 
+chain all the way up to html element with a css declaration
+of height: 100%;
+Meaning add height 100% to all the parent of the element,
+for html you can add auto as well for % to work. */
+
+aside div{
+    height: 10vh;
+}
+/* 
+alternative to avoid this changing is using viewport
+units for height with vh */
+
+div{
+    background-color: slateblue;
+    margin-bottom: 50px;
+    font-size: 50px;
+    line-height: 100%;
+}
+
+/* There's some line height on the element, which you
+should keep. To get rid of it you can add 100% to line 
+height. This is so I can demonstrate height is only 
+changing due to the height property. */
+

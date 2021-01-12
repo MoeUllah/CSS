@@ -1,0 +1,35 @@
+.box{
+    font-size: 50px;
+    background-color: chartreuse;
+}
+
+#one{
+    margin: 20px;
+}
+
+/* one value applies for all sides
+top,right,bottom,left */
+
+#two{
+    margin: 20px 40px;
+}
+
+/* two values then first is for top/bottom
+second is for right/left */
+
+#three{
+    margin: 0 10px 20px 30px;
+}
+
+/* four values goes clockwise from top to 
+right to bottom to left */
+
+body, hr{
+    margin: 0;
+}
+
+/* elements have default margin, setting to 0 so 
+only margin affecting divs, to avoid margin 
+collapsing you need to ensure margins don't
+touch like adding a hr between divs or adding a padding
+or border to the element */

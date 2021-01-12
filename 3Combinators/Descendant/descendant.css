@@ -1,0 +1,7 @@
+body p {
+    color:red;
+}
+
+/* selects all paragraph elements nested inside
+a body, no  matter how many levels deep 
+symbol is whitespace */

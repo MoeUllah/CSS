@@ -1,0 +1,16 @@
+[class~="one"]{
+    color:chocolate;
+    font:30px;
+
+}
+
+[class~="three-para"]{
+    color:blue;
+    font:30px;
+}
+
+/* 
+[attributeName~="attributeValue"]
+select a specific attribute value in a list
+ of white-spaced separated values 
+ */

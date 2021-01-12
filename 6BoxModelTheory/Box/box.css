@@ -1,0 +1,16 @@
+h1{
+    padding: 20px;
+    border: blue solid 5px;
+    margin: 100px;
+
+}
+
+h2{
+    border: yellow dashed 5px;
+}
+
+h3{
+    border: red solid 5px;
+    padding: 20px;
+    margin-top: 200px;
+}

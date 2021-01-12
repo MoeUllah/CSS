@@ -1,0 +1,8 @@
+ul > li {
+    border: blue solid;
+}  
+
+/* selects all nested li elements that is a direct child 
+(one level below) of ul elements.
+symbol is > 
+*/

@@ -1,0 +1,47 @@
+
+/* X-axis(bottom), y-axis(right), blur(amount of blur), 
+spread(how much spread beyond the borders you set 
+for the first two values), and shadowColor */
+
+div#one{
+    box-shadow: 20px 40px;
+}
+
+/* first two values are a must for box-shadow 
+to work, first value is for shadow to the 
+right, second value shadow to the bottom */
+
+div#two{
+    box-shadow: 20px 20px 30px;
+}
+/* 
+third value adds bluriness, higher the more blurry
+the color of shadow  */
+
+div#three{
+    box-shadow: 20px 20px 5px 30px;
+}
+
+/* fourth value is how much the shadow spreads, if 
+bigger than the first two values shadow will spread
+on all sides */
+
+div#four{
+    box-shadow: green 10px 10px;
+}
+
+/* can add a color for the shadow either front or end
+you can add color using any way
+predefined colors, hexcode, hsl(a), rgb(a) */
+
+div#everything {
+    box-shadow: 10px 10px 5px 4px rgba(156, 228, 224, 0.787);
+}
+
+
+div {
+    background-color: cyan;
+    font-size: 70px;
+    margin: 70px;
+    padding: 10px;
+}

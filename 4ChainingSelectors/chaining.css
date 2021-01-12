@@ -1,0 +1,37 @@
+/* selecting nav using multiple selectors 
+id selector combinator attributeSelector*/
+
+#main-nav > [href]{
+    color: red;
+}
+
+/* can add the html tag in front of 
+class, id or attribute selectors
+to make more specific */
+
+main#main-content{
+    background-color: rosybrown;
+}
+
+/* selecting all html elements with 
+class as an attribute with a value of 
+header */
+
+*.header{
+    color:blue;
+}
+
+/* combining an attribute selector with its html tag */
+
+h2[class^="sub-he"]{
+    color:slateblue;
+    text-decoration: underline;
+}
+/* 
+selecting an element with name attribute having
+a value of exactly one nested inside a body element */
+
+body [name="one"]{
+    color:turquoise;
+    text-decoration: overline;
+}

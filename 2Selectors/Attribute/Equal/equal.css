@@ -1,0 +1,23 @@
+[name="para-one"]{
+    color:indigo;
+    font-size: 30px;
+}
+
+[name="para-two"]{
+    color:coral;
+    font-size: 30px;
+}
+
+[name="para-three"]{
+    color:springgreen;
+    font-size: 30px;
+}
+
+[name="para-four"]{
+    color:palevioletred;
+    font-size: 30px;
+}
+/* 
+[attributeName="attributeValue"] 
+equals exactly that attribute value
+*/

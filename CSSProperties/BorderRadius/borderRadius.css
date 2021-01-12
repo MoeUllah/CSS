@@ -1,0 +1,25 @@
+.box{
+    background-color: chocolate;
+    font-size: 50px;
+    margin-bottom: 20px;
+    display: inline-block;
+}
+
+#one{
+    border-radius: 20px;
+}
+
+/* one value for all corners */
+
+#two{
+    border-radius: 10px 20px 30px 40px;
+}
+
+/* 4 values starts from top left corner goes
+clockwise */
+
+#three{
+    border-radius: 50%;
+}
+
+/* percentage as a value */

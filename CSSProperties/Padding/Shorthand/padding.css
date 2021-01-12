@@ -1,0 +1,31 @@
+.box{
+    font-size: 50px;
+    background-color: chartreuse;
+    display: inline-block;
+}
+
+/* notice how above classes are reusable
+all the shared properties-values my divs
+should get i grouped into a class */
+
+#one{
+    padding: 20px;
+}
+
+/* one value applies for all sides
+top,right,bottom,left */
+
+#two{
+    padding: 20px 40px;
+}
+
+/* two values then first is for top/bottom
+second is for right/left */
+
+#three{
+    padding: 0 10px 20px 30px;
+}
+
+/* four values goes clockwise from top to 
+right to bottom to left */
+

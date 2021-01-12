@@ -1,0 +1,50 @@
+*{
+    margin: 10px;
+}
+
+body{
+    background-color: lightblue;
+}
+tr, th,td{
+  padding: 10px;
+}
+table{
+    
+    width: 100%;
+    border-collapse: collapse;
+}
+th,td{
+    border: 1px solid blue;
+    text-align: center;
+}
+
+tr:hover{
+    background-color: blue;
+}
+ label{
+    display: block;
+    text-align: center;
+    /* wrap in div to be next to each other */
+}
+
+input{
+    width: 50%;
+    /* display: block; */
+    /* margin: 0 auto; */
+    /* to center can do above or take default inline */
+}
+form{
+    text-align: center;
+}
+
+#terms{
+    width: 5%;
+}
+
+[for="terms"]{
+    display: inline;
+}
+
+[for="title"]{
+    display: inline;
+}

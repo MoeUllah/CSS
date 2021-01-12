@@ -1,0 +1,76 @@
+/* adding the !important declaration
+overwrites even inline styles */
+
+.important {
+    color: blue !important;
+}
+
+/* inline styles have higher specificity than id selector */
+
+#header-one{
+    color:yellow;
+}
+
+/* div is selected by both id and class but 
+id takes higher specificity even if it comes 
+before in the file */
+
+#id-div{
+    color:violet;
+    background-color: black;
+}
+
+.class-div{
+    color:tomato;
+   background-color: black;
+}
+
+/* class selector has higher specificity 
+than a tag selector, this footer is selected
+by class selector*/
+
+.footer{
+    color: pink;
+    font-size: 30px;
+}
+
+footer{
+    color: darkcyan;
+    font-size: 30px;
+}
+
+/* a tag selector has high specificty than a 
+universal selector, here the li is styled by 
+a li tag selector, all the elements are 50px 
+due to universal except for li element*/
+
+li {
+    list-style: square;
+    font-size: 10px;
+}
+
+*{
+    list-style: circle;
+    font-size: 25px;
+}
+
+/* the link isn't underlined since universal has 
+higher specificty than browser defaults */
+
+*{
+    text-decoration: none;
+    margin-bottom: 10px;
+}
+
+/* all the text takes in my browser takes Times-News Roman
+by default, but aside i assign cursive, and i made inherit
+declaration in h2,so for that h2 inheritance overwrites
+browser defaults, normally not the case */
+
+aside{
+    font-family: cursive;
+}
+
+h2{
+    font-family: inherit;
+}

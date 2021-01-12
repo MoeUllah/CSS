@@ -1,0 +1,6 @@
+[name*="-is-a"]{
+    color:pink;
+}
+
+/* [attributeName*="attributeValueSubString"]
+selects an element by substring in the attribute value */

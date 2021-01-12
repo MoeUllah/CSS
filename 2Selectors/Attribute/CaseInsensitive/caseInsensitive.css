@@ -1,0 +1,23 @@
+#header-one{
+    color:green;
+}
+
+.SOME-PARA {
+    color:red;
+}
+/* 
+Generally CSS is insensitive, but as you
+ can see above classes and ids are exceptions 
+ it selects exactly uppercase or lowercase*/
+
+ [id="header" i]{
+     color:blue;
+ }
+
+ [class="para" i]{
+    color:orange;
+}
+
+/* with attribute selectors you can select classes and ids
+without being case sensitive with i
+[waysToSelectByAttribute i] */

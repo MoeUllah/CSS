@@ -1,0 +1,11 @@
+[name|="long"]{
+    color: hotpink;
+}
+
+[name|="tiny"]{
+    color: lawngreen;
+}
+
+/* [attributeName|="attributeValue"]
+here the attribute value is the prefix part of attribute 
+value ending with dash or exactly that attribute */

@@ -1,0 +1,39 @@
+/* Block level elements takes entire width by default */
+div#one{
+    width: 50%;
+}
+
+/* Box one takes with of 50% of whatever the width 
+is of its parent, width is an inherited property
+Width changes dynamically here, you can check 
+with devtools and increase/decrease your 
+window size */
+
+div#two{
+    width: 200px;
+}
+
+/* Here I target box one and directly assign a certain
+width, this will not change dynamically as you
+increase/decrease window size, it'll always be 200px */
+
+main{
+    width: 400px;
+}
+
+main div{
+    width: 25%;
+}
+
+/* Here div three is nested inside the main element,
+the main element has a fixed width of 400px and its 
+child div element has a width of that fixed width 
+of its parent. Doesn't dynamically change, however
+if I change fixed height of the parent, it'll have an
+effect on the child. */
+
+div{
+    background-color: slateblue;
+    margin-bottom: 50px;
+    font-size: 50px;
+}

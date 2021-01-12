@@ -1,0 +1,31 @@
+.one-box{
+    border-width: 5px;
+    border-style: double;
+    border-color: lawngreen;
+    font-size: 50px;
+}
+
+.two-box{
+    border-width: 10px;
+    border-style: ridge;
+    border-color: rebeccapurple;
+    font-size: 50px;
+}
+
+.three-box{
+    border-width: 1px;
+    border-style: groove;
+    border-color: yellowgreen;
+    font-size: 50px;
+}
+
+.four-box{
+    border-width: 5px;
+    border-style: dotted;
+    border-color:palevioletred;
+    font-size: 50px;
+}
+
+div{
+    margin-bottom: 10px;
+}

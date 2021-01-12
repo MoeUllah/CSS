@@ -1,0 +1,10 @@
+[dhdh^="this"]{
+    color:navajowhite;
+}
+
+/* 
+[attributeName^="attributeValuePrefix"]
+selects an element by prefix part of attributeValue, 
+doesn't require a dash like tilde selector
+dhdh is a custom attribute made by us, not default
+*/

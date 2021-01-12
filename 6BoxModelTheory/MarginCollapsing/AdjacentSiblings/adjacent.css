@@ -1,0 +1,29 @@
+#box-one{
+    background-color: greenyellow;
+    height: 50px;
+    margin-bottom: 100px;
+    
+}
+
+#box-two{
+    background-color: steelblue;
+    height: 50px;
+    margin-top: 200px;
+    margin-bottom: 100px;
+   
+}
+
+#box-three{
+    background-color: goldenrod;
+    height: 50px;
+    margin: 300px auto;
+    
+}
+
+#parent-box, body{
+    margin: 0;
+}
+
+/* open dev tools and check the box
+ model at bottom of styles tab
+ the margins touching combine together */

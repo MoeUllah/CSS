@@ -1,0 +1,7 @@
+div {
+    border: solid blueviolet 5px;
+    font-size: 50px;
+}
+
+/* border-style, border-width, border-color
+order doesn't matter */

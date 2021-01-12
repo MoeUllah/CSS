@@ -1,0 +1,23 @@
+main {
+    margin: 10px auto;
+    background-color: blueviolet;
+}
+
+h1{
+    margin-top: 100px;
+}
+
+h2 {
+    margin-bottom: 100px;
+}
+
+hr{
+    margin: 0;
+}
+
+/* if you inspect the margin top of h1 and
+margin bottokm of h2 you'll see that the
+margins extends outside of the parent.
+You wanted a margin for main of only 10px but 
+you see a 100px margin due to margin collapsing
+of the child elements. */
