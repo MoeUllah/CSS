@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="visibility.css">
+</head>
+
+<body>
+    <div>Box one</div>
+    <div>Box two</div>
+    <div id="three">Box three</div>
+    <div>Box four takes box three's place due to display none</div>
+    <div id="five">Box 5</div>
+    <div>Box 6 can't take Box 5's place since box 5 has visibility
+        hidden, its invisible but its place cannot be taken by
+        other elements
+    </div>
+    <div>Box 7</div>
+
+    <span>Span one</span>
+    <span>Span two</span>
+    <span id="span-three">Span three</span>
+    <span>Span four takes Span three's place due to display none</span>
+    <span id="span-five">Span 5</span>
+    <span>Span 6 can't take Span 5's place since Span 5 has visibility
+        hidden, its invisible but its place cannot be taken by
+        other elements
+    </span>
+    <span>Span 7</span>
+</body>
+
+</html>

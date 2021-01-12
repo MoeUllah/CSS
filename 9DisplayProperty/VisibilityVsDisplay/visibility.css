@@ -1,0 +1,36 @@
+body{
+    margin: 0;
+}
+
+div{
+    background-color: royalblue;
+    margin-bottom: 10px;
+    font-size: 50px;
+}
+
+span{
+    background-color: rebeccapurple;
+    margin-right: 10px;
+    font-size: 30px;
+}
+
+#three{
+    display: none;
+
+}
+#five{
+    visibility: hidden;
+}
+
+#span-three{
+    display: none;
+
+}
+#span-five{
+    visibility: hidden;
+}
+
+/* check in devtools, box 3 and box 5 are 
+only invisible, removed from visible document flow 
+but they are still part of DOM , this works for inline 
+elements as well*/

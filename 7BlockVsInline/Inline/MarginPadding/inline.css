@@ -1,0 +1,29 @@
+span{
+    margin: 50px 0;
+    background-color: tomato;
+}
+
+/* Inspect in devtools, span one has a left and right 
+margin of 100px but margin-top and margin-bottom 
+doesn't work for inline elements */
+
+#bottom{
+    background-color: blue;
+    padding: 50px;
+}
+
+/* look at bottom span, the padding top and bottom
+has no effect on the internal separation within 
+the element. If we color the span we can see the 
+padding is applied but the bottom span still
+ligns up nicely with its neighboring spans, so 
+padding top and bottom has no effect on nearby
+elements */
+
+hr, body{
+    margin: 0;
+}
+
+div{
+    text-align: end;
+}

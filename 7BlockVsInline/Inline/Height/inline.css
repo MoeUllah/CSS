@@ -1,0 +1,26 @@
+span{
+    background-color: rgba(212, 168, 226, 0.575);
+    margin-right: 30px;
+    font-size: 50px;
+}
+
+#one{
+    height: 400px;
+}
+
+#two{
+    height: 50%;
+}
+
+body,html{
+    height: 100%;
+}
+
+#three{
+    height: 50vh;
+}
+
+/* For inline elements adding height with %,
+absolute values, or even vh has no effect.
+They have a value of auto, takes as much 
+space as content needs. */

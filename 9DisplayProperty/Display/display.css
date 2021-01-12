@@ -1,0 +1,40 @@
+#one div{
+    display: inline-block;
+
+}
+
+#two div{
+    display: inline-block;
+    margin-top: 50px;
+    margin-bottom: 50px;
+    padding-top: 20px;
+    padding-bottom: 20px;
+}
+
+#three div, span{
+    display: none;
+}
+
+#four span{
+    display: block;
+    margin-bottom: 50px;
+}
+#four h1{
+    margin-top: 50px;
+}
+
+div, span{
+    background-color: turquoise;
+    font-size: 50px;
+    margin-right: 10px;
+}
+
+body, h1{
+    margin: 0;
+}
+/* 
+Elements on a webpage respect the order of the DOM, meaning 
+they are displayed on the webpage in top to bottom order
+the same way they are in the html file. Block level elements form
+new lines, but you can change all this default layout with 
+the display property. */

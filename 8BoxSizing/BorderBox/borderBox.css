@@ -1,0 +1,36 @@
+
+main{
+    background-color:rgba(14, 235, 14, 0.198);
+    width: 300px;
+    height: 300px;
+}
+
+main div{
+    width: 300px;
+    height: 300px;
+    padding: 40px;
+    border: 20px solid red;
+    box-sizing: border-box;
+}
+
+footer{
+    height: 300px;
+    background-color: rgba(28, 243, 0, 0.993);
+    margin-top: 50px;
+}
+ footer div{
+     height: 300px;
+     box-sizing: border-box;
+     margin: 100px;
+     border: 20px solid red;
+ }
+
+ body{margin: 0;}
+
+ /* When we add border-box for box-sizing the width/height
+ we specify is equal to the content size + any borders +
+ and paddings. This ensures that when we specify width/height
+ then that we get a box of exactly those dimensions for 
+ width and height. This is the behavior we expect and
+ should want so we set box-sizing to border-box with universal
+ selector  */

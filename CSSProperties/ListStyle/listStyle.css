@@ -1,0 +1,17 @@
+#one li{
+    list-style: none;
+    /* list-style: square;
+    list-style: armenian; */
+}
+
+#two li{
+    /* list-style-position: outside; */
+    list-style-position: inside;
+    
+}
+
+
+li{
+    font-size: 30px;
+    color: blue;
+}

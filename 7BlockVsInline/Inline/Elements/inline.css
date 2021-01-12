@@ -1,0 +1,13 @@
+div *{
+    background-color: rgb(229, 159, 147);
+    margin-right: 30px;
+    font-size: 50px;
+}
+#a-div{
+    text-align: center;
+}
+
+/* These are inline elements, they can fit 
+on the same long as long as there is enough 
+space for the content to fit, click on link 
+to see a list of inline elements */
