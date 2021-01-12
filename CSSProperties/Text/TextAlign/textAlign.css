@@ -1,0 +1,25 @@
+
+.one{
+    /* text-align: right;
+    text-align: start; */
+    text-align: center
+}
+
+.two{
+    text-decoration:green wavy underline overline 2px;
+}
+
+.three{
+    /* text-transform: capitalize;
+    text-transform: lowercase; */
+    text-transform: uppercase;
+}
+
+.four{
+    text-shadow: blue 4px 4px 4px;
+    /* color howManyPXRight PXBottom blur */
+    font-size: 30px;
+}
+.five{
+    text-indent: 100px;
+}
