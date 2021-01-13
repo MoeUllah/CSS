@@ -1,0 +1,21 @@
+span{
+    float: right;
+    background-color: darkgoldenrod;
+}
+
+#two{
+    background-color: lightcoral;
+}
+
+#clear{
+    clear: both;
+}
+
+/* To avoid that weird behavior with floats, if you
+ever use it. You simply add an empty div after the 
+element with float applied, and target that empty div 
+and add the clear property with a value of both. These 
+clears all floats to the left and right of the empty 
+div, to the left in this case due to that span. Now the 
+div forms on a new line as you can see, try commenting 
+out the clear:both; and see the weird behavior again */

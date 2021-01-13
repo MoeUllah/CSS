@@ -1,0 +1,76 @@
+/* link we didn't visit yet */
+a:link {
+    color: red;
+  }
+  
+ /* link we visited */
+  a:visited {
+    color: greenyellow;
+  }
+  
+  /* mouse hovering over link */
+  a:hover {
+    color: purple;
+  }
+  
+  /* currently selected link */
+  a:active {
+    color:blue;
+  }
+
+  /* :hover has to come after :link and :visited, and 
+  :active must come after :hover */
+
+  main div:first-child{
+      color:yellow;
+  }
+  main div:last-child{
+      color: salmon;
+  }
+  
+  main div:first-of-type{
+      background-color: salmon;
+  }
+
+  main div:last-of-type{
+    background-color: royalblue;
+}
+
+main div:last-of-type{
+    color: seagreen;
+}
+
+main div:nth-child(2){
+    color: springgreen;
+}
+
+main div:nth-of-type(3){
+    color: violet;
+}
+main div:nth-last-of-type(4){
+    background-color: sienna
+}
+
+main div:nth-of-type(even){
+    font-family: cursive;
+}
+main div:nth-of-type(odd){
+    text-decoration: underline;
+}
+
+main div:nth-of-type(2n+2){
+    text-indent: 50px;
+}
+
+main div:nth-child(-n+2){
+    text-align: right;
+}
+
+main div:nth-of-type(n+4){
+    font-weight: bolder;
+}
+  a, div{
+      font-size: 50px;
+      margin-bottom: 20px;
+  }
+

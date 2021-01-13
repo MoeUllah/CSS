@@ -1,0 +1,37 @@
+span{
+    float: right;
+    background-color: darkgoldenrod;
+}
+
+/* Normally elements take up space from left to 
+right, in the old days with float: right we could
+shift elements to right away from default behavior.
+It was a way to reposition elements back then when 
+ways were limited, these days we get better ways. 
+Good thing about floats is any text wraps around an
+element that has float as a property. You can see the 
+text from second div is block but it doesn't interfere
+with the brown span with float, the text wraps around it. */
+
+#one{
+    background-color: lightblue;
+}
+
+#two{
+    background-color: lightcoral;
+}
+
+#three{
+    background-color: lightseagreen;
+    border: 10px solid red;
+}
+
+#second-span{
+    font-size: 50px;
+}
+
+/* As you can see text wraps around an element with 
+float nicely, but nothing else. Here we apply a red 
+border to the third div, but the border isn't 
+visibily applied  all around since the span with float 
+goes on top of the div. Leads to weird behaviors. */

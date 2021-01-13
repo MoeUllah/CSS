@@ -1,0 +1,54 @@
+#one{
+    color: violet;
+}
+
+/* predefined values for colors in CSS */
+
+#two{
+    color: #20b2aa;
+    /* color: #ccc; */
+}
+
+/* Hexcode for colors, 6 digit number/letters with # 
+at front, could be less than six */
+
+#three{
+    color: rgb(120, 240, 60);
+}
+/* 
+the amount of red, green and blue color from a value of
+0 to 255 to determine the intensity of light for that 
+color. 0 means no light 255 means maximum light. Can also 
+use values of 0 to 1 instead of 0 to 255. One means max 
+light */
+
+#four{
+    /* color: rgba(0, 0, 200, 100%); */
+    color: rgba(0, 0, 200, 0.2);
+}
+
+/* rgba values same as above but a is for alpha, which 
+adds opacity to the color. Can use values of 0 to 1 or 
+0% to 100%. 0 means completely transparent, 1 or 100 
+means completely opaque, not transparent at all. */
+
+#five {
+    color: hsl(240, 30%, 50%);
+}
+
+/* hue: degree on color wheel up to 360. 0 is red, 120 is
+green, 240 is blue. Saturartion takes 0 to 100%, 0 means
+a shade of gray added to the color, 100% means full color 
+with no gray added. Lightness is also 0 to 100%, 0% means 
+closer to black, 100% is white. */
+
+#six{
+    color: hsla(240, 30%, 50%, 0.3);
+}
+
+/* Same as above with alpha, 0 means transparent, 1 means 
+opaque. */
+
+p{
+    font-size: 30px;
+}

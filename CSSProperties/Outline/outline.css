@@ -1,0 +1,22 @@
+#password{
+    outline: none;
+}
+
+/* Focus on the input for name, you see the outline
+Focus on the input for password, no outline. */
+
+/* In devtools you can see and activate pseudo-class styles
+available  on elements by clicking :hov */
+
+#email:focus{
+    outline: none;
+    border: 1px green solid;
+    height: 100px;
+}
+
+/* by setting outline to none I can add my own 
+custom borders when focusing the input */
+
+input{
+    margin-bottom: 20px;
+}
