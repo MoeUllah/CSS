@@ -24,53 +24,105 @@ a:link {
   main div:first-child{
       color:yellow;
   }
+
+  /* selects a div element inside a main where the
+  div is the first child and no other html element */
+
   main div:last-child{
       color: salmon;
   }
   
+  /* selects a div element inside a main where the
+  div is the last child and no other html element */
+
   main div:first-of-type{
       background-color: salmon;
   }
+
+  /* selects the first div inside a main element */
+
 
   main div:last-of-type{
     background-color: royalblue;
 }
 
-main div:last-of-type{
-    color: seagreen;
-}
+/* selects the last div inside a main element */
 
 main div:nth-child(2){
     color: springgreen;
 }
 
+/* selects the 2nd div inside the main element */
+
 main div:nth-of-type(3){
     color: violet;
 }
+
+/* selects the 3rd div inside the main element */
+
 main div:nth-last-of-type(4){
     background-color: sienna
 }
 
+/* selects the 4th div inside the main element but 
+starting from backwards counting */
+
 main div:nth-of-type(even){
     font-family: cursive;
 }
+
+/* selects all even numbered divs inside a main element,
+this only cars about divs in counting, not other
+elements in between */
+
 main div:nth-of-type(odd){
     text-decoration: underline;
 }
 
-main div:nth-of-type(2n+2){
-    text-indent: 50px;
+/* selects all odd numbered divs inside a main element,
+this only cars about divs in counting, not other
+elements in between */
+
+main div:nth-of-type(3n+2){
+    box-shadow: black 10px 10px;
 }
 
-main div:nth-child(-n+2){
-    text-align: right;
+/* selects the second div in every group of 3 divs */
+
+
+main div:nth-child(-n+3){
+    text-align: center;
 }
+
+/* selects the first 3 divs only */
 
 main div:nth-of-type(n+4){
-    font-weight: bolder;
+    border: 10px solid green;
 }
-  a, div{
+
+/* selects all divs after four and including 4 
+as well */
+
+section :not(div){
+    background-color: orange;
+}
+
+/* selects all nested section elements not a div,
+the selector you pass inside the not function adds
+to the specificty*/
+
+aside div:first-child{
+    color: blueviolet;
+}
+
+aside div:first-of-type{
+    text-align: center;
+}
+  a, div, span{
       font-size: 50px;
       margin-bottom: 20px;
   }
 
+aside{
+    background-color: blue;
+}
