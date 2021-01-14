@@ -118,6 +118,13 @@ aside div:first-child{
 aside div:first-of-type{
     text-align: center;
 }
+
+/* See the difference between first-child and first-of-type.
+First-of-type works for the first occurence of an element 
+but first-child means the element must strictly be the
+first child. In the second aside since span is first-child 
+the blueviolet color doesn't apply */
+
   a, div, span{
       font-size: 50px;
       margin-bottom: 20px;
