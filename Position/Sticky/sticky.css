@@ -1,0 +1,48 @@
+.header__country{
+    position: sticky;
+    top: 0px;
+   
+}
+/* Position sticky applied to the header for the 
+countries. It behaves like a normal element but it 
+becomes like a fixed element once you reach a certain 
+limit. The limit that is reached is the distance between
+the viewport and the border of the element where sticky 
+is applied. In this case it is 0px.  */
+
+li{
+    list-style: none;
+    margin: 10px;
+    padding: 10px;
+    text-indent: 20px;
+    color: white;
+    background-color: blue;
+}
+
+ul h1{
+    color: white;
+    background-color: purple;
+    margin: 10px;
+    padding: 10px;
+    margin-bottom: 20px;
+}
+
+ul{
+    margin: 10px;
+    padding: 20px;
+
+}
+
+body{
+    margin: 0px;
+    background-color: paleturquoise;
+    height: 2000px;
+}
+
+html{
+    margin: 0;
+}
+
+*{
+    box-sizing: border-box;
+}

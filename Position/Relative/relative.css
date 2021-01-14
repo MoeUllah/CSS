@@ -1,0 +1,23 @@
+#container{
+    background-color: rgba(0, 128, 0, 0.276);
+    width: 400px;
+    height: 400px;
+
+    /* overflow: hidden; */
+}
+
+#inside{
+    background-color: palegreen;
+    height: 200px;
+    width: 200px;
+    position: relative;
+    top: 300px;
+    left: 200px;
+}
+
+/* We apply position of relative to inside container,
+We can move it with the top, right, bottom, left. 
+The element itself will move with relative applied.
+If you want to hide any content that moves out of 
+parent then just add overflow hidden, comment in 
+that code. */

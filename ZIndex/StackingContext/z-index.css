@@ -1,0 +1,79 @@
+
+#three{
+    height: 100px;
+    width: 60%;
+    position: fixed;
+    z-index: 1;
+    background-color: royalblue;
+}
+
+#two{
+    background-color: greenyellow;
+    position: fixed;
+    height: 400px;
+    width: 60%;
+    z-index: 2;
+    top: 80px;
+    left: 200px;
+}
+
+#one{
+    background-color: hotpink;
+    width: 40%;
+    position: fixed;
+    z-index: 3;
+    height: 100px;
+    top: 430px;
+    left: 400px;
+}
+
+/* If you comment out z-index for each div above you see 
+stacking context created for position value of fixed,
+here it takes the order in the file, then 3(blue) is on 
+top, then 2(green), and 1(pink) is on bottom.
+Once you comment in z-index values you see the higher z
+index element goes on top */
+
+#first{
+
+    position: absolute;
+    top: 100px;
+    left: 30px;
+    width: 60%;
+    height: 100px;
+    z-index: 300;
+}
+
+#second{
+    position: absolute;
+    top: 180px;
+    height: 50px;
+    width: 40%;
+    left: 200px;
+    z-index: 200;
+}
+
+#third{
+    position: absolute;
+    top: 220px;
+    width: 30%;
+    height: 300px;
+    left: 240px;
+    z-index: 100;
+}
+
+/* The second div child elements has its own stacking context,
+the z-index of child elements is 100,200,300 way higher
+than z-index of navigation div, but still the third one 
+box inside second div is underneath navigaton div. It's 
+z-index only matters amongst its sibling inside its 
+parent element. The z-index on parent elements determines 
+stacking contet for the parent containers */
+
+.inside-div{
+    background-color: tomato;
+}
+
+div{
+    border: 2px solid black;
+}

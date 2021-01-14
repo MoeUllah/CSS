@@ -1,0 +1,114 @@
+.div__language{
+    background-color: greenyellow;
+   
+}
+
+header{
+    background-color: green;
+    font-size: 30px;
+}
+
+main{
+    width: 50%;
+    margin: 0px auto;
+}
+
+#aside-container-one{
+    position: absolute;
+    right: 0px;
+    top: 57px;
+    width: 25%;
+    height: 88%;
+    overflow: hidden;
+}
+
+
+#aside-container-two{
+    position: absolute;
+    top: 57px;
+    width: 25%;
+    height: 88%;
+    overflow: hidden;
+}
+
+/* The asides here have a position of absolute, you can
+position them with top left bottom right, they move 
+relative to next parent that has a position applied 
+different from static, which is body in this case */
+
+aside{
+    width: 70%;
+    background-color: green;
+    height: 100%;
+    margin: 0px auto;
+}
+footer{
+    background-color: green;
+    font-size: 20px;
+    
+}
+
+body{
+    margin: 0px;
+    text-align: center;
+    position: relative;
+}
+
+/* first parent of the aside with a position property applied
+differet from static */
+
+*{
+    box-sizing: border-box;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* position: absolute;
+    bottom: -57px;
+    width: 100%; */
+
+    /* With absolute margins don't work,
+    be careful when adding top it takes out of document
+    flow remember, so be careful with heights, adjust 
+    so it doesn't go past */

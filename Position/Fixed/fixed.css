@@ -12,7 +12,12 @@
 and top 0px which helps the header stay fixed to the 
 visible part, now if you scroll, the header will always be 
 visible on top. Try commenting the position and top out
-and see the difference*/
+and see the difference, if you scroll now the header 
+eventually comes out of view, not fixed to the viewport,
+the visible area of the webpage.
+
+Any top left right bottom values you apply moves 
+the element in relation to the viewport*/
 #main-logo, nav a{
     color: whitesmoke;
     display: inline-block;
