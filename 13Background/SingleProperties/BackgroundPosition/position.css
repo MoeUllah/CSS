@@ -1,0 +1,35 @@
+#main-image{
+    background-image: url("../../skyline.jpg");
+    /* background-position: 20px 50px; */
+    /* background-position: 100% 100%; */
+    /* background-position: center; */
+    background-position: top right;
+    background-size: auto 1500px;
+    background-repeat: no-repeat;
+    height: 100vh;
+    width: 100%;
+}
+
+body{
+    margin: 0;
+}
+
+/* comment in/out different background
+position and see the effect on the 
+image */
+
+/* px values to offset the image, first
+value move to the right, second value 
+move down */
+
+/* percentages to take % of parent width 
+and height */
+
+/* center is a predefined value to center 
+image */
+
+/* predefined values of top bottom left right,
+can use in combination. Top right means 
+show 100% image from top and right side(
+ also same as 0% 0%, the top and left 
+ will be cropped 0%). */

@@ -1,0 +1,35 @@
+#main-box{
+    border: dashed 30px black;
+    background-image: url("../../skyline.jpg");
+    background-repeat: no-repeat;
+    margin: 0;
+    box-sizing: border-box;
+    background-size: 100% 100%;
+    height: 50vh;
+    padding: 10px;
+    /* background-origin: content-box;
+    background-origin: padding-box; */
+    background-origin: border-box;
+}
+
+body{
+    margin: 0px;
+}
+/* with origin set to content-box you see
+the image container only contains the
+content, the image doesn't go under 
+padding and  border */
+
+/* with origin set to padding-box you see
+the image container only contains the
+content + padding, the image doesn't go under 
+the border */
+
+/* with origin set to border-box you see
+the image container contains the
+content + padding + border, the image goes under
+the border */
+
+/* comment in/out each one and see. this only
+matters if your border is see through like
+for dashed borders */

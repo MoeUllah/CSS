@@ -9,3 +9,11 @@ body{
 
 /* Try commenting in and out one at a time the different
 values and see the result */
+
+/* repeats image if small enough
+
+repeats only on x-axis
+
+repeats only on y-axis
+
+doesn't repeat image */

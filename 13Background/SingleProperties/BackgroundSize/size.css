@@ -1,14 +1,33 @@
-body{
+#main-image{
     background-image: url("../../skyline.jpg");
-    height: 100vh;
-    /* background-size: 500px; */
+    height: 100%;
+    background-size: 500px;
     /* background-size: 500px 250px; */
     /* background-size: 70% auto; */
-    /* background-size: 70%; */
+    /* background-size: auto 70%; */
+    /* background-size: 50%; */
     /* background-size: auto auto; */
     /* background-size: cover;  */
-    background-size: contain;
+    /* background-size: contain; */
+}
+
+body,html{
+    margin: 0;
+    height: 100%;
 }
 
 /* Comment in the background-size value assignments individually
 to see the result */
+
+/* px one value is for both, keeps 
+aspect ratio of image, two values 
+can specify different width/height
+
+can specify percentages to take % 
+of parent container, or auto to 
+take as much as needed.
+
+predefined value cover, covers whole 
+container with image, contain fits 
+entire image in container and can 
+lead to whitespace. */

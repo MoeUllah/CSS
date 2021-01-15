@@ -1,0 +1,46 @@
+*{
+    box-sizing: border-box;
+}
+
+#main-image{
+    background-image: url("../../skyline.jpg");
+    /* background-color: black; */
+    height: 800px;
+    width: 500px;
+    border: 40px dashed red;
+    padding: 20px;
+    background-size: 100% 100%;
+    background-position: center;
+    /* background-clip: content-box; */
+    /* background-clip: padding-box; */
+    background-clip: border-box;
+    background-origin: content-box;
+  
+} 
+
+body,html{
+    margin: 0%;
+    height: 100%;
+}
+
+
+/* with clip set to content-box you see
+the image container is clipped after 
+the content*/
+
+/* with clip set to padding-box you see
+the image container the image is clipped 
+after the padding */
+
+/* with clip set to border-box you see
+the image is clipped after the border, so
+the image is seen under border */
+
+/* comment in/out each one and see. this only
+matters if your border is see through like
+for dashed borders */
+
+/* clip sets properties for origin as well, 
+that is why it is clipped at border box 
+still even after origin is set to content 
+box a line below */
