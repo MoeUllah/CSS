@@ -1,0 +1,19 @@
+#main-image{
+    background: url("../skyline.jpg") left top/2500px 
+    no-repeat border-box fixed;
+    height: 100vh;
+
+}
+
+body{
+    margin: 0px;
+}
+
+*{
+    box-sizing: border-box;
+}
+
+/* background: Image or color, position/size, repeat, origin, 
+clip (if one value then for both) attachment */
+
+/* Position comes first, separated from size by slash */

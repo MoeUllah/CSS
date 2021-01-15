@@ -1,0 +1,16 @@
+#main-image{
+    height: 100vh;
+    background-size: cover;
+    /* background-image: linear-gradient(red,blue); */
+    background-image: linear-gradient(to left top, red, orange);
+    background-image: linear-gradient(30deg, red, blue);
+    background-image: linear-gradient(90deg, red, blue);
+    background-image: linear-gradient(60deg, red 33%, blue 66%, green 99%);
+    background-image: linear-gradient(to bottom left,rgb(255, 251, 0) 25% ,
+    rgba(255, 0, 242, 0.301) 20%, #191970 50%, rgb(195, 255, 0) 40%);
+    color: rgba(1, 1, 1, 0.466);
+}
+
+body{
+    margin: 0;
+}
