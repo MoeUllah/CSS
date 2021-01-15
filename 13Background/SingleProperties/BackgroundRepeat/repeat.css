@@ -1,0 +1,11 @@
+body{
+    background-image: url(../../skyline.jpg);
+    background-size: 50%;
+    background-repeat: repeat;
+    /* background-repeat: repeat-x;
+    background-repeat: repeat-y;
+    background-repeat: no-repeat; */
+}
+
+/* Try commenting in and out one at a time the different
+values and see the result */

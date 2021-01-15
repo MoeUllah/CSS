@@ -1,0 +1,14 @@
+body{
+    background-image: url("../../skyline.jpg");
+    height: 100vh;
+    /* background-size: 500px; */
+    /* background-size: 500px 250px; */
+    /* background-size: 70% auto; */
+    /* background-size: 70%; */
+    /* background-size: auto auto; */
+    /* background-size: cover;  */
+    background-size: contain;
+}
+
+/* Comment in the background-size value assignments individually
+to see the result */
