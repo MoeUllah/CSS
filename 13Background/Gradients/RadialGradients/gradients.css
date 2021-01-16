@@ -1,0 +1,50 @@
+#main-image{
+    height: 100vh;
+    background-image: radial-gradient(red, green, blue);
+    background-image: radial-gradient(circle, red, blue, green);
+    background-image: radial-gradient(circle at top left, red, blue
+    ,green);
+    background-image: radial-gradient(circle at 20% 100%, red, blue
+    ,green);
+    background-image: radial-gradient(circle 40px at 20% 50%, red, blue, green);
+    background-image: radial-gradient(40px 20px at center, red
+    ,green, blue);
+    background-image: radial-gradient(ellipse closest-side at 40% 60%, 
+    red, green, blue);
+    background-image: radial-gradient(ellipse farthest-corner at 40% 60%, 
+    red, green, blue);
+    background-image: radial-gradient(ellipse farthest-side at 40% 60%, 
+    red 40%, green 25%, blue 60%, yellow 50%);
+}
+
+body{
+    margin: 0;
+}
+
+*{
+    box-sizing: border-box;
+}
+
+/* can specify 2 or more colors, default shape
+is ellipse
+
+can specify first value for shape, other 
+value is circle */
+
+/* can specify position of circle next to shape,
+like top left bottom right, center, or 
+combination like top left. */
+
+/* for position can use % like 100% 100% means
+top left. First value is for x- axis, second is for
+y-axis, where circle is positioned, higher % x 
+means more to the right, higher % y means more down */
+
+/* pc value represents radius of outermost circle if 
+one value, if two diff value then ellipse, then
+first for width, second is for height */
+
+/* can have predefined values farthest-side, closest-side,
+closest-corner, farthest-corner, all defines size of gradient */
+
+/* can define color stops as well with % */

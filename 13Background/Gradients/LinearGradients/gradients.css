@@ -2,15 +2,32 @@
     height: 100vh;
     background-size: cover;
     /* background-image: linear-gradient(red,blue); */
-    background-image: linear-gradient(to left top, red, orange);
-    background-image: linear-gradient(30deg, red, blue);
-    background-image: linear-gradient(90deg, red, blue);
+    /* background-image: linear-gradient(to left top, red, orange); */
+    /* background-image: linear-gradient(30deg, red, blue); */
+    /* background-image: linear-gradient(90deg, red, blue); */
     background-image: linear-gradient(60deg, red 33%, blue 66%, green 99%);
-    background-image: linear-gradient(to bottom left,rgb(255, 251, 0) 25% ,
-    rgba(255, 0, 242, 0.301) 20%, #191970 50%, rgb(195, 255, 0) 40%);
-    color: rgba(1, 1, 1, 0.466);
+    /* background-image: linear-gradient(to bottom left,rgb(255, 251, 0) 25% ,
+    rgba(255, 0, 242, 0.301) 20%, #191970 50%, rgb(195, 255, 0) 40%); */
 }
 
 body{
     margin: 0;
 }
+
+/* linear gradient with 2 or more colors, transitions smoothly 
+between the two */
+
+/* can have a first value specifying direction of the 
+gradient, normal behavior is top to bottom, 
+to left top means start means starts right bottom
+and goes to left top. */
+
+/* can specify direction in degrees using deg */
+
+/* can define percentage stops on colors red 33% means 
+1/3 of the gradient should be red then transition to 
+next color */
+
+/* can specify premature stops, which leads to hard 
+transitions, solid transitions between colors and 
+can pick colors using any way you learned */
