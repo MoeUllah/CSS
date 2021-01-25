@@ -1,0 +1,17 @@
+main{
+    height: 300px;
+    width: 300px;
+    background-color: burlywood;
+    position: fixed;
+}
+
+div{
+    position: absolute;
+    background-color: chartreuse;
+    height: 50%;
+    width: 50%;
+}
+
+/* takes % for wdith and height based off 
+parent element with position different 
+from static applied. */

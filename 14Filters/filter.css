@@ -1,0 +1,63 @@
+main{
+    width: 300px;
+    height: 300px;
+    background-color: brown;
+    filter: blur(10px);
+    /* adds blur */
+    filter: brightness(45%);  /* 0 to 1 or % */
+    /* adds brightness 0 is dark 1 is bright */
+}
+
+aside{
+    height: 100px;
+    background-color: chocolate;
+    filter: contrast(200%);
+    /* 0 is gray 100% is normal, over 100% is more contrast */
+    filter: drop-shadow(2px 2px 2px black);
+    /* adds a shadow */
+}
+
+section{
+    height: 100px;
+    filter: grayscale(1);
+    /* adds grayness, 1 means gray, % */
+    filter: hue-rotate(180deg);
+    /* rotates around the color wheel by the degrees given
+    and adds that color, 0deg means original */
+    filter: invert(100%);
+    /* inverts the color in the wheel, 0% means original */
+    background-color: yellow;
+}
+
+div{
+    height: 100px;
+    background-color: springgreen;
+    opacity: 0.2;
+    /* makes transparent, 0 or 0% means fully transparent */
+}
+
+h1{
+    opacity: 0.7;
+    /* opacity is passed down to child elements, due 
+    to how opacity is applied all the way at the end 
+    so can't overwrite it in child. */
+}
+
+footer{
+    height: 100px;
+    background-color: teal;
+    filter: saturate(780%);
+    /* saturate 0% is like gray, bigger values more 
+    color is saturated, looks brighter */
+}
+
+header{
+    height: 100px;
+    background-color: gray;
+    filter: sepia(100%);
+    /* 100% turns it into sepia, a reddish brownish color */
+}
+
+*{
+    margin-bottom: 10px;
+}

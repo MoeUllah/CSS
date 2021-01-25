@@ -1,0 +1,17 @@
+main{
+    width: 40%;
+    height: 60vh;
+    position: fixed;
+    background-color: brown;
+}
+
+*{
+    box-sizing: border-box;
+}
+
+
+
+/* 40% width refers to viewport width,
+ 60vh means 60% height of viewport, hard to see
+ in dev tools since fixed takes out of doc
+ flow*/

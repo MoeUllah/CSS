@@ -1,0 +1,11 @@
+main{
+    font-size: 2em;
+}
+
+div{
+    font-size: 2em;
+}
+
+/* em is inherited. The main is 2x the 
+default fotn size, but the div is 2x
+the font-size of main, so it is 4x. */

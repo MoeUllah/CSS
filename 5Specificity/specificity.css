@@ -3,6 +3,7 @@ overwrites even inline styles */
 
 .important {
     color: blue !important;
+    font-weight: bold;
 }
 
 /* inline styles have higher specificity than id selector */
@@ -22,7 +23,7 @@ before in the file */
 
 .class-div{
     color:tomato;
-   background-color: black;
+   background-color: blueviolet;
 }
 
 /* class selector has higher specificity 
@@ -46,7 +47,7 @@ due to universal except for li element*/
 
 li {
     list-style: square;
-    font-size: 10px;
+    font-size: 25px;
 }
 
 *{
@@ -60,12 +61,16 @@ higher specificty than browser defaults */
 *{
     text-decoration: none;
     margin-bottom: 10px;
+    font-family: 'Times New Roman';
 }
 
 /* all the text takes in my browser takes Times-News Roman
 by default, but aside i assign cursive, and i made inherit
 declaration in h2,so for that h2 inheritance overwrites
-browser defaults, normally not the case */
+browser defaults, normally not the case
+
+Try commenting out the h2 font-family inherit rule
+and see the difference.*/
 
 aside{
     font-family: cursive;

@@ -3,7 +3,7 @@
 }
 
 .SOME-PARA {
-    color:red;
+    color: orange;
 }
 /* 
 Generally CSS is insensitive, but as you
@@ -21,3 +21,9 @@ Generally CSS is insensitive, but as you
 /* with attribute selectors you can select classes and ids
 without being case sensitive with i
 [waysToSelectByAttribute i] */
+
+SPAN{
+    color: plum;
+}
+
+/* wheter you use uppercase or lowercase for SPAN don't matter */

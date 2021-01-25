@@ -1,0 +1,10 @@
+main{
+    font-size: 100%;
+}
+
+footer{
+    font-size: 50%;
+}
+
+/* can change default font-size from start using
+% for font-size on html element */

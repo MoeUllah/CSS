@@ -1,0 +1,13 @@
+
+
+nav{
+    background-color: greenyellow;
+}
+
+h1{
+    font-size: 20px;
+}
+
+/* Go to browser settings change default font-size,
+you'll see navbar change in size but not h1, 
+since it has absolute pixels as value. */

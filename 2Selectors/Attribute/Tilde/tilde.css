@@ -1,12 +1,12 @@
 [class~="one"]{
-    color:chocolate;
+    color:red;
     font:30px;
 
 }
 
 [class~="three-para"]{
-    color:blue;
-    font:30px;
+    color:yellow;
+    font: 100px;
 }
 
 /* 

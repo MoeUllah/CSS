@@ -1,0 +1,18 @@
+div{
+    background-color: blue;
+    width: 50vw;
+    height: 30vh;
+}
+
+footer{
+    background-color: brown;
+    width: 40vmin;
+    height: 20vmax;
+    margin-top: 20px;
+}
+
+/* takes 50% of visible viewport width 
+and 80% of visible viewport height */
+
+/* vmin takes the lower dimension into calculation,
+vmax the higher dimension. */

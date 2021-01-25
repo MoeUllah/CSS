@@ -1,0 +1,10 @@
+main {
+  font-size: 2rem;
+}
+
+footer {
+  font-size: 4rem;
+}
+
+/* 1 rem is equal to default font size of html,
+2rem is 2x that, 4rem is 4x that */

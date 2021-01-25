@@ -1,0 +1,25 @@
+#one{
+    background-color: lightblue;
+    height: 400px;
+    width: 400px;
+}
+
+span{
+    background-color: lightcoral;
+    height: 200px;
+    width: 200px;
+    display: inline-block;
+    /* display: inline; */
+}
+
+#two{
+    background-color: lightgoldenrodyellow;
+    height: 50%;
+    width: 50%;
+    position: relative;
+}
+
+/* takes % for width and height for next block 
+level element, try commenting out/in display 
+inline for span and see the difference, static 
+behaves the same */

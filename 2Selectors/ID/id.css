@@ -1,7 +1,10 @@
-#header-two, #header-six{
+#header-two{
     color: green;
 }
 
+#header-six{
+    color: blueviolet;
+}
 /* 
 #idName
 ID's are unique 
